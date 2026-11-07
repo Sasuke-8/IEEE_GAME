@@ -38,8 +38,8 @@ function startGame(level) {
   document.getElementById("overlay").style.display = "none";
 
   if (level === "easy") speed = 800;
-  if (level === "medium") speed = 500;
-  if (level === "hard") speed = 300;
+  if (level === "medium") speed = 600;
+  if (level === "hard") speed = 400;
 
   score = 0;
   timeLeft = GAME_TIME;
